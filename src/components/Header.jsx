@@ -8,7 +8,7 @@ export default function Header() {
     <nav className='flex justify-between flex-grow items-center'>
         <ul className='flex gap-x-8 text-white'>
             <li>
-                <a href="#"  className='font-butler text-2xl font-normal'>Home</a>
+                <a href="/"  className='font-butler text-2xl font-normal'>Home</a>
             </li>
             <li>
                 <a href="#aboutus"  className='font-butler text-2xl font-normal'>About Us</a>
