@@ -7,6 +7,7 @@ import ImageBanner from "./components/ImageBanner";
 import AboutUs from "./components/AboutUs";
 import Testimony from "./components/Testimony";
 import FooterBanner from "./components/FooterBanner"
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <AboutUs />
       <Testimony />
       <FooterBanner />
-      
+      <Footer />
     </>
   );
 }
