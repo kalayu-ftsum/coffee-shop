@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Hero from "./components/Hero";
 import "./App.css";
 import Products from "./components/Products";
+import ImageBanner from "./components/ImageBanner";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <Banner />
       <Products />
+      <ImageBanner />
     </>
   );
 }

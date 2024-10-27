@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        butler:'Butler'
+        butler:'Butler',
+        slash:'Slash'
       },
       fontWeight:{
         thin:200,

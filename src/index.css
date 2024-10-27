@@ -11,6 +11,13 @@
 }
 
 @font-face {
+  font-family: 'Slash';
+  src: url('./fonts/Slash Signature.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Butler';
   src: url('./fonts/Butler-Medium.woff2') format('woff2'),
       url('./fonts/Butler-Medium.woff') format('woff');
