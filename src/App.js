@@ -6,6 +6,7 @@ import Products from "./components/Products";
 import ImageBanner from "./components/ImageBanner";
 import AboutUs from "./components/AboutUs";
 import Testimony from "./components/Testimony";
+import FooterBanner from "./components/FooterBanner"
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <ImageBanner />
       <AboutUs />
       <Testimony />
+      <FooterBanner />
+      
     </>
   );
 }
