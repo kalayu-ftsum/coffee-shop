@@ -8,7 +8,9 @@ import ProductCard from "./ProductCard";
 
 export default function Products() {
   return (
-    <div className="px-36 my-44 relative">
+    <div className="px-36 my-44 relative"
+    id="specials"
+    >
       <img
         src={ProductsBg}
         alt="bg coffee"

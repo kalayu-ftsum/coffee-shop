@@ -6,7 +6,9 @@ import CoffeeBanner from '../assets/coffee_banner.png'
 
 export default function Services() {
   return (
-    <div className="relative mt-48">
+    <div 
+    id='menu'
+    className="relative mt-48">
     <img
         src={CoffeeBanner}
         alt="bg coffee"

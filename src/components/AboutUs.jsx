@@ -7,7 +7,9 @@ import CupFour from "../assets/cup 4.png";
 
 export default function AboutUs() {
   return (
-    <div className=" mx-36 mt-36">
+    <div className=" mx-36 mt-36"
+    id="aboutus"
+    >
       <div className="flex justify-between">
         <img src={Heart} alt="heart coffee" className="w-80" />
         <div>
