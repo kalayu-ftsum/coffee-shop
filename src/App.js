@@ -5,6 +5,7 @@ import "./App.css";
 import Products from "./components/Products";
 import ImageBanner from "./components/ImageBanner";
 import AboutUs from "./components/AboutUs";
+import Testimony from "./components/Testimony";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <ImageBanner />
       <AboutUs />
+      <Testimony />
     </>
   );
 }
