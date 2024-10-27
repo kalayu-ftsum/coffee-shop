@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className="my-8 text-white font-butler font-normal text-2xl text-center">© Copyright 2021, All Rights Reserved by Coffee Time</p>
+      <p className="my-8 text-white font-butler font-normal text-2xl text-center">© Copyright 2021, All Rights Reserved by Coffee Time </p>
     </div>
   );
 }
