@@ -11,13 +11,13 @@ export default function Header() {
                 <a href="#"  className='font-butler text-2xl font-normal'>Home</a>
             </li>
             <li>
-                <a href=""  className='font-butler text-2xl font-normal'>About Us</a>
+                <a href="#"  className='font-butler text-2xl font-normal'>About Us</a>
             </li>
             <li>
-                <a href="" className='font-butler text-2xl font-normal'>Menu</a>
+                <a href="#" className='font-butler text-2xl font-normal'>Menu</a>
             </li>
             <li>
-                <a href="" className='font-butler text-2xl font-normal'>Our Specials</a>
+                <a href="#" className='font-butler text-2xl font-normal'>Our Specials</a>
             </li>
         </ul>
         <div className='flex gap-x-4'>
