@@ -1,6 +1,5 @@
 {
   "name": "coffee-shop",
-  "homepage": "https://kalayu-ftsum.github.io/coffee-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
