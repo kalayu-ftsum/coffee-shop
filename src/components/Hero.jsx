@@ -32,16 +32,16 @@ export default function Hero() {
     />
     <div className="text-white pt-10 absolute top-1/2 left-[135px] transform -translate-y-1/2">
       <div className="mb-14">
-        <h1 className="font-butler font-bold leading-none text-[12rem] mb-4 mr-32">
+        <h1 className="font-butler font-bold leading-[120%] text-9xl mr-32">
           Enjoy Your Life With Coffee
         </h1>
-        <p className="font-butler font-normal text-2xl w-[607px]">
+        <p className="font-butler font-normal leading-[140%] text-lg w-[607px]">
           Boost your productivity and build your mood with a short break in
           the most comfortable place. Boost your productivity and build your
           mood with a short.
         </p>
       </div>
-      <button className="font-butler font-bold text-2xl px-8 py-4 rounded-lg bg-primary text-white">
+      <button className="font-butler font-bold text-lg leading-none px-6 py-4 rounded-lg bg-primary text-white">
         Explore more
       </button>
     </div>
