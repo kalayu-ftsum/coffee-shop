@@ -7,43 +7,51 @@ import CupFour from "../assets/cup 4.png";
 
 export default function AboutUs() {
   return (
-    <div className=" mx-36 mt-36"
-    id="aboutus"
-    >
+    <div className=" mx-[135px] mt-[130px]" id="aboutus">
       <div className="flex justify-between">
-        <img src={Heart} alt="heart coffee" className="w-80" />
+        <img src={Heart} alt="heart coffee" className="w-[252px] h-[250px]" />
         <div>
-          <h1 className="text-end text-8xl text-background font-butler font-bold mb-8">
+          <h1 className="text-end text-8xl text-background font-butler font-extrabold mb-8">
             Our Shop
-            <p className="text-end text-7xl"> Our dream gallery</p>
+            <p className="text-end text-[64px]"> Our dream gallery</p>
           </h1>
-          <p className="text-end ml-auto my-4 text-2xl text-secondary font-butler font-normal  w-5/12">
+          <p className="text-end ml-auto my-4 text-lg text-secondary font-butler font-normal  w-5/12">
             Boost your productivity and build your mood with a short break in
             the most comfortable place. Boost your productivity
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-4 grid-rows-2 gap-4 my-8">
+      <div className="flex flex-wrap gap-6 my-8">
+        <div
+        className="flex flex-wrap flex-col gap-6"
+        >
+
         <img
           src={CupThree}
           alt="heart coffee"
-          className="col-span-2 rounded-3xl w-full  h-[312px]"
+          className="rounded-3xl  w-[474px]  h-[237px]"
         />
-             <img
-          src={CupFour}
-          alt="heart coffee"
-          className="col-span-2 row-span-2 rounded-3xl w-full h-[640px]"
-        />
-         <img
+        <div
+        className="flex flex-wrap gap-6"
+        >
+        <img
           src={CupOne}
           alt="heart coffee"
-          className="rounded-3xl w-full  h-[312px]"
+          className="rounded-3xl w-[175px]  h-[237px]"
         />
-                <img
+        <img
           src={CupTwo}
           alt="heart coffee"
-          className="rounded-3xl w-full h-[312px]"
+          className=" rounded-3xl w-[275px] h-[237px]"
+        />
+
+        </div>
+        </div>
+        <img
+          src={CupFour}
+          alt="heart coffee"
+          className="rounded-3xl w-[672px] h-[498px]"
         />
       </div>
     </div>

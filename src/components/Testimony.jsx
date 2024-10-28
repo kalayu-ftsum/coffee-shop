@@ -5,43 +5,43 @@ import CoffeeBean from '../assets/coffee_bean.png'
 
 export default function Testimoney() {
   return (
-    <div className="mt-48 px-36 relative">
+    <div className="mt-[130px] px-[135px] relative">
         <img
         src={CoffeeBean}
         alt="CoffeeBean"
-        className="absolute -top-48 right-0 w-1/3 h-[500px]"
+        className="absolute -top-[135px] right-0 w-[423px] h-[433px]"
         />
 
-      <h1 className="text-8xl text-background font-butler font-bold mb-8">
+      <h1 className="text-8xl text-background font-butler font-extrabold mb-8">
         What
-        <p className="text-7xl"> Our customers say</p>
+        <p className="text-[64px]"> Our customers say</p>
       </h1>
-      <div>
+      <div className="pt-4">
         <div className="flex">
-        <div className="basis-1/4 flex flex-col gap-y-6  p-9 border-8 rounded-3xl bg-bgAccent border-secondary w-fit">
+        <div className="flex flex-col gap-y-6  p-6 border-8 rounded-3xl bg-bgAccent border-secondary w-[370px] h-[425px]">
           <img 
-          className="h-[350px] w-full  border-8 border-secondary rounded-t-xl"
+          className="h-[299px] w-full  border-8 border-secondary rounded-t-xl"
           src={Profile} alt="profile" />
           <div className="mx-auto">
-            <h1 className="text-3xl font-butler font-bold mb-2">MARZANA PAYEL</h1>
-                <p className="text-2xl font-butler font-normal">UI UX Designer</p>
+            <h1 className="text-2xl leading-none font-butler font-bold mb-2">MARZANA PAYEL</h1>
+                <p className="text-base leading-[140%] font-butler font-normal">UI UX Designer</p>
           </div>
         </div>
         <div className="basis-3/4 relative rounded-r-3xl p-14 bg-background h-fit my-auto">
         <p
-        className="font-butler font-normal text-[40px] text-white"
+        className="font-butler font-normal text-2xl leading-[140%] text-white"
         >
         Boost your productivity and build your mood with a short break in the most comfortable place. Boost your productivity and build your mood with a short.
         </p>
-        <div className="flex w-fit mx-auto gap-x-4 items-center">
-      <span className="rounded-full w-4 h-4 bg-primary"></span>
-      <span className="rounded-full w-8 h-8 border-8 border-primary bg-white"></span>
-      <span className="rounded-full w-4 h-4 bg-primary"></span>
-     </div>
+        <div className="flex w-fit mx-auto gap-x-2 items-center">
+      <span className="rounded-full w-3 h-3 bg-primary"></span>
+      <span className="rounded-full w-6 h-6 border-[6px] border-primary bg-white"></span>
+      <span className="rounded-full w-3 h-3 bg-primary"></span>
      <BiSolidQuoteAltRight
-      className="text-secondary absolute right-14 bottom-14"
+      className="text-bgAccent absolute right-14 bottom-[50.5]"
       size={88}
-     />
+      />
+      </div>
 
         </div>
         </div>

@@ -6,39 +6,39 @@ export default function ProductCard({
     CoffeeImage
 }) {
   return (
-    <div className="w-[550px] h-[630px] bg-secondary rounded-2xl p-6 relative">
-    <p className="flex gap-x-2 absolute top-14 left-12  bg-primary text-white rounded-2xl py-1 px-4">
-      <span className="font-butler font-bold text-2xl leading-none">
+    <div className="w-[374px] h-[465px] bg-secondary rounded-2xl p-6 relative">
+    <p className="flex gap-x-2 absolute top-8 left-8  bg-primary text-white rounded-[100px] py-1 px-2">
+      <span className="font-butler font-bold text-lg leading-none">
         4.9
       </span>
-      <BsStarFill size={20} color="white" />
+      <BsStarFill size={16} color="white" />
     </p>
     <img
       src={CoffeeImage}
       alt="bg coffee"
-      className=" w-[502px] h-[341px] object-cover rounded-xl"
+      className=" w-[502px] h-[241px] object-cover rounded-xl"
     />
     <div className="mt-6 ">
       <div className="flex justify-between">
-        <p className="text-4xl font-butler font-bold text-white">
+        <p className="text-2xl leading-normal font-butler font-bold text-white">
           Cappuccino
         </p>
-        <p className="text-4xl font-butler font-normal text-white">23k</p>
+        <p className="text-2xl leading-normal font-butler font-bold text-white">23k</p>
       </div>
-      <p className="text-white mt-2 mb-6 text-xl font-butler font-normal w-3/4">
+      <p className="text-white mt-2 mb-6 text-base font-butler font-normal w-3/4">
         Boost your productivity and build your mood with a short .
       </p>
       <div className="flex justify-between">
-        <div className="flex gap-x-4">
-          <button className="font-butler font-bold text-xl leading-none px-8  border border-accent text-primary rounded-lg">
+        <div className="">
+          <button className="font-butler font-bold text-lg py-[11px] leading-none px-6  h-10  border border-accent text-primary rounded-lg">
             Hot
           </button>
-          <button className="font-butler font-bold text-xl leading-none px-8  border border-accent text-primary rounded-lg">
+          <button className="ml-2 font-butler h-10 py-[11px] font-bold text-xl leading-none px-8  border border-accent text-primary rounded-lg">
             Cold
           </button>
         </div>
-        <div className="bg-[#723e2a] p-4 rounded-full">
-          <HiOutlineShoppingCart size={30} className="text-primary" />
+        <div className="bg-[#723e2a] p-2 rounded-full">
+          <HiOutlineShoppingCart size={24} className="text-primary" />
         </div>
       </div>
     </div>
