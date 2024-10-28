@@ -1,29 +1,26 @@
-import React from 'react'
-import { ReactComponent as Bean } from "../assets/Bean.svg";
+import React from "react";
+import BeanImg from "../assets/Bean.png";
 
 export default function Banner() {
   return (
-    <div className="h-[100px] bg-primary flex px-8 items-center gap-x-12">
-    <Bean width={90} height={90} />
-    <p className="text-5xl text-white font-butler font-normal ">
-      Cappuccino
-    </p>
+    <div className="py-8 bg-primary flex px-8 items-center justify-between">
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
 
-    <Bean width={90} height={90} />
-    <p className="text-5xl text-white font-butler font-normal ">Expresso</p>
+      <p className="text-4xl text-white font-butler font-black ">Cappuccino</p>
 
-    <Bean width={90} height={90} />
-    <p className="text-5xl text-white font-butler font-normal ">Moca</p>
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
+      <p className="text-4xl text-white font-butler font-black ">Expresso</p>
 
-    <Bean width={90} height={90} />
-    <p className="text-5xl text-white font-butler font-normal ">Latte</p>
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
+      <p className="text-4xl text-white font-butler font-black ">Moca</p>
 
-    <Bean width={90} height={90} />
-    <p className="text-5xl text-white font-butler font-normal ">
-      Americano
-    </p>
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
+      <p className="text-4xl text-white font-butler font-black ">Latte</p>
 
-    <Bean width={90} height={90} />
-  </div>
-  )
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
+      <p className="text-4xl text-white font-butler font-black ">Americano</p>
+
+      <img src={BeanImg} alt="bean image" className=" object-cover " />
+    </div>
+  );
 }
