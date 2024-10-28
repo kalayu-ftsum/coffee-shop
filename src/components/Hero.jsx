@@ -9,7 +9,7 @@ export default function Hero() {
     <Header />
     <div className="absolute top-0 right-0 w-[950px] h-[30%]">
       <div
-        className="relative z-1 ml-auto w-[95%] h-[90%] "
+        className="relative ml-auto w-[816.26px] h-[310px] "
         style={{
           background:
             "linear-gradient(#1c0b04 0%, #1c0b04 53%, #1c0b04 100%)",
@@ -18,7 +18,7 @@ export default function Hero() {
         <img
           src={CoffeeBgTop}
           alt="bg coffee"
-          className=" object-cover relative h-full w-full"
+          className=" object-cover relative h-[237px] w-[710px] ml-auto"
           style={{
             boxShadow: "rgb(28 11 4 / 20%) 0px 0px 15px 10px",
           }}
@@ -28,7 +28,7 @@ export default function Hero() {
     <img
       src={CoffeeBgBottom}
       alt="bg coffee"
-      className="absolute bottom-0 right-0 w-[95%] h-[73%] object-cover z-0"
+      className="absolute bottom-0 right-0 w-[1317.85px] h-[515px] object-cover"
     />
     <div className="text-white pt-10 absolute top-1/2 left-[135px] transform -translate-y-1/2">
       <div className="mb-14">
